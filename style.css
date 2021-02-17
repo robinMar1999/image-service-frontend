@@ -1,0 +1,56 @@
+.container{
+  width: 80%;
+  margin: 10px auto;
+  font-family: 'Courier New', Courier, monospace;
+}
+.jumbotron{
+  padding:10px;
+  background-color: rgb(238, 235, 235);
+  margin: 20px 0;
+  border-radius: 3px;
+  font-size: 1.2em;
+}
+.gallery{
+  margin-top: 20px;
+  /* column-count: 3; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.image{
+  margin: 10px;
+  border:1px solid black;
+  padding:10px;
+}
+img{
+  width: 300px;
+}
+
+.btn-blue{
+  /* border: 1px solid black; */
+  border-radius: 3px;
+  background-color: blue;
+  color: white;
+  width: 100px;
+  height: 30px;
+}
+
+.btn-green{
+  border-radius: 3px;
+  background-color: green;
+  color: white;
+  width: 100px;
+  height: 30px;
+}
+
+.delete{
+  display: block;
+  border-radius: 3px;
+  background-color: red;
+  color: white;
+  width: 100px;
+  height: 30px;
+}
+
+.hidden{
+  display: none;
+}
